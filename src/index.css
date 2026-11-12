@@ -1,0 +1,28 @@
+.boardgame {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.boardgame > div {
+  display: flex;
+  gap: 4px;
+}
+
+.game {
+  align-items: flex-start;
+}
+
+.game-board > .board-row1,
+.game-board > .board-row2,
+.game-board > .board-row3 {
+  display: flex;
+  gap: 4px;
+}
+
+.Square {
+  width: 80px;
+  height: 80px;
+  box-sizing: border-box;
+  font-size: 30px;
+}
